@@ -1,0 +1,51 @@
+button { 
+	padding: 10px 25px !important;
+	font-weight: 700 !important;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-size: 14px !important;
+}
+
+button i { margin-right: 10px; }
+
+
+input, select, textarea {
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	outline: none !important;
+	border-radius: 0 !important;
+	outline: none;
+    box-shadow:none !important;
+    border-width: 2px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* contact */
+.contact { 
+	padding-top: 90px;
+	padding-bottom: 90px;
+	font-family: 'Lato', sans-serif;
+}
+
+.contact.container { max-width: 700px; }
+
+.contact h2 {
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: 3px;
+	margin-bottom: 60px;
+}
+
+.contact h2:after {
+	content: "";
+	display: block;
+	border-bottom: 2px solid #0d6efd;
+	width: 100px;
+	padding-top: 20px;
+}
+
+.contact .last {
+	margin-bottom: 40px;
+}
